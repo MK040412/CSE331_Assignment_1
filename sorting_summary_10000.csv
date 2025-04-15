@@ -1,0 +1,121 @@
+Algorithm,Dataset Type,Data Size,Average Execution Time(ms),Comparisons,Assignments,Memory Usage(bytes),Theoretical Stability,Measured Stability
+Bubble Sort,Partially Sorted,1000,4.00,499364,278700,4005,Stable,Stable
+Bubble Sort,Partially Sorted,10000,420.40,49968894,28462095,40005,Stable,Stable
+Bubble Sort,Random,1000,7.00,498759,742002,4005,Stable,Stable
+Bubble Sort,Random,10000,675.10,49991760,75551493,40005,Stable,Stable
+Bubble Sort,Reverse Sorted,1000,8.80,499500,1498500,4005,Stable,Stable
+Bubble Sort,Reverse Sorted,10000,754.20,49995000,149985000,40005,Stable,Stable
+Bubble Sort,Sorted(Asc),1000,0.00,999,0,4005,Stable,Stable
+Bubble Sort,Sorted(Asc),10000,0.00,9999,0,40005,Stable,Stable
+Bubble Sort,Sorted(Desc),1000,8.00,499500,1498500,4005,Stable,Stable
+Bubble Sort,Sorted(Desc),10000,745.00,49995000,149985000,40005,Stable,Stable
+Cocktail Sort,Partially Sorted,1000,2.00,175890,278700,4000,Stable,Stable
+Cocktail Sort,Partially Sorted,10000,192.20,16877409,28462095,40000,Stable,Stable
+Cocktail Sort,Random,1000,6.00,378222,742002,4000,Stable,Stable
+Cocktail Sort,Random,10000,516.50,37958129,75551493,40000,Stable,Stable
+Cocktail Sort,Reverse Sorted,1000,8.00,499500,1498500,4000,Stable,Stable
+Cocktail Sort,Reverse Sorted,10000,740.90,49995000,149985000,40000,Stable,Stable
+Cocktail Sort,Sorted(Asc),1000,0.00,999,0,4000,Stable,Stable
+Cocktail Sort,Sorted(Asc),10000,0.00,9999,0,40000,Stable,Stable
+Cocktail Sort,Sorted(Desc),1000,8.30,499500,1498500,4000,Stable,Stable
+Cocktail Sort,Sorted(Desc),10000,754.10,49995000,149985000,40000,Stable,Stable
+Comb Sort,Partially Sorted,1000,0.00,22709,10962,4000,Unstable,Unstable
+Comb Sort,Partially Sorted,10000,3.00,326734,168846,40000,Unstable,Unstable
+Comb Sort,Random,1000,0.00,22709,13332,4000,Unstable,Unstable
+Comb Sort,Random,10000,3.00,336733,190047,40000,Unstable,Unstable
+Comb Sort,Reverse Sorted,1000,0.00,19712,4746,4000,Unstable,Unstable
+Comb Sort,Reverse Sorted,10000,1.00,286738,60234,40000,Unstable,Unstable
+Comb Sort,Sorted(Asc),1000,0.00,18713,0,4000,Unstable,Unstable
+Comb Sort,Sorted(Asc),10000,1.00,276739,0,40000,Unstable,Unstable
+Comb Sort,Sorted(Desc),1000,0.00,19712,4746,4000,Unstable,Unstable
+Comb Sort,Sorted(Desc),10000,1.20,286738,60234,40000,Unstable,Unstable
+Heap Sort,Partially Sorted,1000,0.00,17205,28302,4000,Unstable,Unstable
+Heap Sort,Partially Sorted,10000,4.00,239383,384090,40000,Unstable,Unstable
+Heap Sort,Random,1000,0.00,16869,27210,4000,Unstable,Unstable
+Heap Sort,Random,10000,4.00,235312,372279,40000,Unstable,Unstable
+Heap Sort,Reverse Sorted,1000,0.00,15965,24948,4000,Unstable,Unstable
+Heap Sort,Reverse Sorted,10000,3.00,226682,350088,40000,Unstable,Unstable
+Heap Sort,Sorted(Asc),1000,0.00,17583,29124,4000,Unstable,Unstable
+Heap Sort,Sorted(Asc),10000,4.00,244460,395868,40000,Unstable,Unstable
+Heap Sort,Sorted(Desc),1000,0.00,15965,24948,4000,Unstable,Unstable
+Heap Sort,Sorted(Desc),10000,3.00,226682,350088,40000,Unstable,Unstable
+Insertion Sort,Partially Sorted,1000,0.00,93899,94898,4008,Stable,Stable
+Insertion Sort,Partially Sorted,10000,74.30,9497364,9507363,40008,Stable,Stable
+Insertion Sort,Random,1000,2.00,248323,249332,4008,Stable,Stable
+Insertion Sort,Random,10000,200.60,25193824,25203829,40008,Stable,Stable
+Insertion Sort,Reverse Sorted,1000,4.00,499500,501498,4008,Stable,Stable
+Insertion Sort,Reverse Sorted,10000,379.30,49995000,50014998,40008,Stable,Stable
+Insertion Sort,Sorted(Asc),1000,0.00,999,1998,4008,Stable,Stable
+Insertion Sort,Sorted(Asc),10000,0.00,9999,19998,40008,Stable,Stable
+Insertion Sort,Sorted(Desc),1000,4.00,499500,501498,4008,Stable,Stable
+Insertion Sort,Sorted(Desc),10000,375.80,49995000,50014998,40008,Stable,Stable
+Intro Sort,Partially Sorted,1000,0.00,10533,13841,4000,Unstable,Unstable
+Intro Sort,Partially Sorted,10000,1.20,154617,223265,40000,Unstable,Unstable
+Intro Sort,Random,1000,0.00,10475,17305,4000,Unstable,Unstable
+Intro Sort,Random,10000,1.00,146562,212164,40000,Unstable,Unstable
+Intro Sort,Reverse Sorted,1000,0.00,16542,27566,4000,Unstable,Unstable
+Intro Sort,Reverse Sorted,10000,2.00,255042,427674,40000,Unstable,Unstable
+Intro Sort,Sorted(Asc),1000,0.00,6942,10881,4000,Unstable,Unstable
+Intro Sort,Sorted(Asc),10000,1.00,108986,168168,40000,Unstable,Unstable
+Intro Sort,Sorted(Desc),1000,0.00,16542,27566,4000,Unstable,Unstable
+Intro Sort,Sorted(Desc),10000,2.00,255042,427674,40000,Unstable,Unstable
+Library Sort,Partially Sorted,1000,3.00,999,1002,12000,Stable,Stable
+Library Sort,Partially Sorted,10000,494.10,65013,2491838,120000,Stable,Stable
+Library Sort,Random,1000,9.00,8208,181577,12000,Stable,Stable
+Library Sort,Random,10000,730.40,105562,16993625,120000,Stable,Stable
+Library Sort,Reverse Sorted,1000,13.90,8977,501500,12000,Stable,Stable
+Library Sort,Reverse Sorted,10000,1081.30,123617,50015000,120000,Stable,Stable
+Library Sort,Sorted(Asc),1000,2.90,999,1002,12000,Stable,Stable
+Library Sort,Sorted(Asc),10000,245.10,9999,10002,120000,Stable,Stable
+Library Sort,Sorted(Desc),1000,13.00,8977,501500,12000,Stable,Stable
+Library Sort,Sorted(Desc),10000,1105.40,123617,50015000,120000,Stable,Stable
+Merge Sort,Partially Sorted,1000,0.00,8549,19952,8000,Stable,Stable
+Merge Sort,Partially Sorted,10000,2.00,119526,267232,80000,Stable,Stable
+Merge Sort,Random,1000,0.00,8704,19952,8000,Stable,Stable
+Merge Sort,Random,10000,2.00,120454,267232,80000,Stable,Stable
+Merge Sort,Reverse Sorted,1000,0.00,4932,19952,8000,Stable,Stable
+Merge Sort,Reverse Sorted,10000,1.70,64608,267232,80000,Stable,Stable
+Merge Sort,Sorted(Asc),1000,0.00,5044,19952,8000,Stable,Stable
+Merge Sort,Sorted(Asc),10000,2.00,69008,267232,80000,Stable,Stable
+Merge Sort,Sorted(Desc),1000,0.00,4932,19952,8000,Stable,Stable
+Merge Sort,Sorted(Desc),10000,2.00,64608,267232,80000,Stable,Stable
+Quick Sort,Partially Sorted,1000,0.00,16527,23491,4120,Unstable,Unstable
+Quick Sort,Partially Sorted,10000,2.00,186664,320358,40168,Unstable,Unstable
+Quick Sort,Random,1000,0.00,10158,19039,4120,Unstable,Unstable
+Quick Sort,Random,10000,1.00,153690,246253,40168,Unstable,Unstable
+Quick Sort,Reverse Sorted,1000,4.00,499500,752496,4120,Unstable,Unstable
+Quick Sort,Reverse Sorted,10000,396.20,49995000,75024996,40168,Unstable,Unstable
+Quick Sort,Sorted(Asc),1000,7.00,499500,1502496,4120,Unstable,Unstable
+Quick Sort,Sorted(Asc),10000,625.60,49995000,150024996,40168,Unstable,Unstable
+Quick Sort,Sorted(Desc),1000,4.00,499500,752496,4120,Unstable,Unstable
+Quick Sort,Sorted(Desc),10000,392.00,49995000,75024996,40168,Unstable,Unstable
+Selection Sort,Partially Sorted,1000,3.20,499500,1260,4008,Unstable,Unstable
+Selection Sort,Partially Sorted,10000,256.20,49995000,29364,40008,Unstable,Unstable
+Selection Sort,Random,1000,3.00,499500,2976,4008,Unstable,Unstable
+Selection Sort,Random,10000,251.20,49995000,29982,40008,Unstable,Unstable
+Selection Sort,Reverse Sorted,1000,3.00,499500,1500,4008,Unstable,Unstable
+Selection Sort,Reverse Sorted,10000,257.70,49995000,15000,40008,Unstable,Unstable
+Selection Sort,Sorted(Asc),1000,5.70,499500,0,4008,Unstable,Unstable
+Selection Sort,Sorted(Asc),10000,250.40,49995000,0,40008,Unstable,Unstable
+Selection Sort,Sorted(Desc),1000,3.00,499500,1500,4008,Unstable,Unstable
+Selection Sort,Sorted(Desc),10000,256.10,49995000,15000,40008,Unstable,Unstable
+Tim Sort,Partially Sorted,1000,0.00,10318,16426,24000,Stable,Stable
+Tim Sort,Partially Sorted,10000,2.00,126908,228159,399360,Stable,Stable
+Tim Sort,Random,1000,0.00,13300,19422,24000,Stable,Stable
+Tim Sort,Random,10000,2.00,144264,245849,399360,Stable,Stable
+Tim Sort,Reverse Sorted,1000,0.00,17844,27340,24000,Stable,Stable
+Tim Sort,Reverse Sorted,10000,2.00,139320,293680,399360,Stable,Stable
+Tim Sort,Sorted(Asc),1000,0.00,3528,11936,24000,Stable,Stable
+Tim Sort,Sorted(Asc),10000,1.00,55020,198680,399360,Stable,Stable
+Tim Sort,Sorted(Desc),1000,0.00,17844,27340,24000,Stable,Stable
+Tim Sort,Sorted(Desc),10000,2.00,139320,293680,399360,Stable,Stable
+Tournament Sort,Partially Sorted,1000,0.00,11023,16071,32564,Unstable,Unstable
+Tournament Sort,Partially Sorted,10000,3.00,156383,219151,473204,Unstable,Unstable
+Tournament Sort,Random,1000,0.00,11023,16071,32564,Unstable,Unstable
+Tournament Sort,Random,10000,4.00,156383,219151,473204,Unstable,Unstable
+Tournament Sort,Reverse Sorted,1000,0.00,11023,16071,32564,Unstable,Unstable
+Tournament Sort,Reverse Sorted,10000,3.00,156383,219151,473204,Unstable,Unstable
+Tournament Sort,Sorted(Asc),1000,0.00,11023,16071,32564,Unstable,Unstable
+Tournament Sort,Sorted(Asc),10000,3.00,156383,219151,473204,Unstable,Unstable
+Tournament Sort,Sorted(Desc),1000,0.00,11023,16071,32564,Unstable,Unstable
+Tournament Sort,Sorted(Desc),10000,3.00,156383,219151,473204,Unstable,Unstable
