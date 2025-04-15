@@ -5,7 +5,7 @@ This project implements and compares various sorting algorithms, including both 
 ## Directory Structure
 
 ```
-./
+
 ├── main.cpp                # Main program entry point
 ├── data_generator.cpp      # Data generation utilities
 ├── data_generator.h        # Header for data generation
