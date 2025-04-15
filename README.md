@@ -140,4 +140,5 @@ The program measures and reports the following metrics for each algorithm:
 ## Output
 
 Results are displayed in tabular format in the console and also exported to a CSV file named `sorting_summary_<size>.csv` for further analysis.
+For default option is english, but i added on the github in the korean tabular.
 
