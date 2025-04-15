@@ -141,21 +141,3 @@ The program measures and reports the following metrics for each algorithm:
 
 Results are displayed in tabular format in the console and also exported to a CSV file named `sorting_summary_<size>.csv` for further analysis.
 
-## Debugging Support
-
-The program includes several debugging features:
-- Detailed logging during execution
-- Verification of sorting correctness
-- Stability testing for all algorithms
-- Comparison between theoretical and measured stability
-- Performance comparison across different data distributions
-
-## Cleaning Up
-
-To clean the build files:
-
-```bash
-make clean
-```
-
-This will remove the `build/` and `bin/` directories.
