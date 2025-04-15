@@ -113,7 +113,6 @@ The program generates and uses several types of test data:
 - Sorted (descending)
 - Random
 - Partially sorted
-- Reverse sorted
 
 Each data type is generated in various sizes (1K, 10K, 100K, 1M elements).
 
