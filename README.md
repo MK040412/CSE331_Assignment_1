@@ -1,108 +1,162 @@
-# Algorithm Project
+# Sorting Algorithms Comparison Project
 
-This README provides an overview of the algorithm implementation, directory structure, and execution instructions.
+This project implements and compares various sorting algorithms, including both conventional and contemporary approaches. It measures performance metrics such as execution time, number of comparisons, assignments, memory usage, and stability across different data distributions.
 
 ## Directory Structure
 
 ```
-Algorithm/
-├── src/                  # Source code files
-│   ├── main.cpp          # Main entry point
-│   ├── algorithm.cpp     # Algorithm implementation
-│   └── algorithm.h       # Algorithm header file
-├── include/              # Header files
-├── test/                 # Test cases
-├── data/                 # Input/output data files
-├── docs/                 # Documentation
-└── README.md             # This file
+./
+├── main.cpp                # Main program entry point
+├── data_generator.cpp      # Data generation utilities
+├── data_generator.h        # Header for data generation
+├── conventional/           # Conventional sorting algorithms
+│   ├── bubble_sort.h       # Bubble Sort implementation
+│   ├── insertion_sort.h    # Insertion Sort implementation
+│   ├── selection_sort.h    # Selection Sort implementation
+│   ├── quick_sort.h        # Quick Sort implementation
+│   ├── merge_sort.h        # Merge Sort implementation
+│   └── heap_sort.h         # Heap Sort implementation
+├── contemporary/           # Contemporary sorting algorithms
+│   ├── library_sort.h      # Library Sort implementation
+│   ├── tim_sort.h          # Tim Sort implementation
+│   ├── cocktail_sort.h     # Cocktail Sort implementation
+│   ├── comb_sort.h         # Comb Sort implementation
+│   ├── tournament_sort.h   # Tournament Sort implementation
+│   └── intro_sort.h        # Intro Sort implementation
+├── build/                  # Build directory (created during compilation)
+├── bin/                    # Binary output directory
+└── data/                   # Test data directory (created during execution)
 ```
 
-## Algorithm Overview
+## Implemented Sorting Algorithms
 
-This project implements [brief description of your algorithm]. The algorithm is designed to [explain the purpose and functionality of your algorithm].
+### Conventional Algorithms
 
-### Key Features
+1. **Bubble Sort**
+   - Time Complexity: Best O(n), Average O(n²), Worst O(n²)
+   - Stable: Yes
 
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
+2. **Insertion Sort**
+   - Time Complexity: Best O(n), Average O(n²), Worst O(n²)
+   - Stable: Yes
 
-## Requirements
+3. **Selection Sort**
+   - Time Complexity: Best O(n²), Average O(n²), Worst O(n²)
+   - Stable: No
 
-- [List required dependencies, libraries, or tools]
-- C++ compiler (GCC/Clang/MSVC)
-- CMake (version 3.10 or higher)
-- [Any other requirements]
+4. **Quick Sort**
+   - Time Complexity: Best O(n log n), Average O(n log n), Worst O(n²)
+   - Stable: No
+
+5. **Merge Sort**
+   - Time Complexity: Best O(n log n), Average O(n log n), Worst O(n log n)
+   - Stable: Yes
+
+6. **Heap Sort**
+   - Time Complexity: Best O(n log n), Average O(n log n), Worst O(n log n)
+   - Stable: No
+
+### Contemporary Algorithms
+
+1. **Library Sort**
+   - Time Complexity: Best O(n), Average O(n log n), Worst O(n²)
+   - Stable: Yes
+
+2. **Tim Sort**
+   - Time Complexity: Best O(n), Average O(n log n), Worst O(n log n)
+   - Stable: Yes
+
+3. **Cocktail Sort**
+   - Time Complexity: Best O(n), Average O(n²), Worst O(n²)
+   - Stable: Yes
+
+4. **Comb Sort**
+   - Time Complexity: Best O(n log n), Average O(n²), Worst O(n²)
+   - Stable: No
+
+5. **Tournament Sort**
+   - Time Complexity: Best O(n log n), Average O(n log n), Worst O(n log n)
+   - Stable: No
+
+6. **Intro Sort**
+   - Time Complexity: Best O(n log n), Average O(n log n), Worst O(n log n)
+   - Stable: No
 
 ## Building the Project
 
-To build the project, follow these steps:
-
-```bash
-mkdir build
-```
-
-```bash
-cd build
-```
-
-```bash
-cmake ..
-```
+The project uses a Makefile for compilation. To build the project:
 
 ```bash
 make
 ```
 
-## Running the Algorithm
+This will create the executable in the `bin/` directory.
 
-After building the project, you can run the algorithm with:
+## Running the Program
 
-```bash
-./algorithm_executable [arguments]
-```
-
-### Command-line Arguments
-
-- `--input <file>`: Specify input file
-- `--output <file>`: Specify output file
-- `--verbose`: Enable detailed output
-- [Other arguments specific to your algorithm]
-
-## Examples
-
-### Example 1: Basic Usage
+After building, you can run the program with:
 
 ```bash
-./algorithm_executable --input data/sample.txt --output results.txt
+make run
 ```
 
-### Example 2: Advanced Usage
+or directly:
 
 ```bash
-./algorithm_executable --input data/complex.txt --output detailed_results.txt --verbose
+./bin/sorting_algorithms
 ```
 
-## Implementation Details
+## Test Data
 
-The algorithm works as follows:
+The program generates and uses several types of test data:
+- Sorted (ascending)
+- Sorted (descending)
+- Random
+- Partially sorted
+- Reverse sorted
 
-1. [Step 1 description]
-2. [Step 2 description]
-3. [Step 3 description]
+Each data type is generated in various sizes (1K, 10K, 100K, 1M elements).
 
-Time Complexity: O([your algorithm's time complexity])
-Space Complexity: O([your algorithm's space complexity])
+## Program Options
 
-## Testing
+When running the program, you can select from the following test options:
 
-To run the tests:
+1. Small data size (1K)
+2. Medium data sizes (1K, 10K)
+3. Large data sizes (1K, 10K, 100K)
+4. All data sizes (1K, 10K, 100K, 1M) - Warning: This may take a very long time
+5. Stability tests only (1K)
+
+## Performance Metrics
+
+The program measures and reports the following metrics for each algorithm:
+- Execution time (average over multiple runs)
+- Number of comparisons
+- Number of assignments
+- Memory usage
+- Theoretical stability
+- Measured stability
+- Sorting correctness
+
+## Output
+
+Results are displayed in tabular format in the console and also exported to a CSV file named `sorting_summary_<size>.csv` for further analysis.
+
+## Debugging Support
+
+The program includes several debugging features:
+- Detailed logging during execution
+- Verification of sorting correctness
+- Stability testing for all algorithms
+- Comparison between theoretical and measured stability
+- Performance comparison across different data distributions
+
+## Cleaning Up
+
+To clean the build files:
 
 ```bash
-cd build
+make clean
 ```
 
-```bash
-make test
-```
-
+This will remove the `build/` and `bin/` directories.
